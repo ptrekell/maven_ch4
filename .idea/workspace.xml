@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f63495-2d29-461e-ab99-8d093d815d53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-weather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/simple-weather-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/target/simple-weather-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-weather/target/test-classes/org/sonatype/mavenbook/custom/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/weather/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/weather/Weather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/weather/WeatherFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/weather/YahooParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/org/sonatype/mavenbook/custom/weather/YahooRetriever.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/classes/output.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/simple-weather-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/TEST-org.sonatype.mavenbook.custom.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/TEST-org.sonatype.mavenbook.custom.weather.yahoo.WeatherFormatterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/TEST-org.sonatype.mavenbook.custom.weather.yahoo.YahooParserTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/org.sonatype.mavenbook.custom.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/org.sonatype.mavenbook.custom.weather.yahoo.WeatherFormatterTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/surefire-reports/org.sonatype.mavenbook.custom.weather.yahoo.YahooParserTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/test-classes/format-expected.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/test-classes/ny-weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/test-classes/org/sonatype/mavenbook/custom/weather/yahoo/WeatherFormatterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/target/test-classes/org/sonatype/mavenbook/custom/weather/yahoo/YahooParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-weather/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/simple-weather/velocity.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/simple-weather/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,53 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-weather/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/weather/yahoo/YahooParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/YahooRetriever.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/weather/yahoo/WeatherFormatterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -86,9 +60,9 @@
         <option value="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/Main.java" />
         <option value="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/WeatherFormatter.java" />
         <option value="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/YahooRetriever.java" />
-        <option value="$PROJECT_DIR$/simple-weather/pom.xml" />
         <option value="$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/weather/yahoo/YahooParserTest.java" />
         <option value="$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/weather/yahoo/WeatherFormatterTest.java" />
+        <option value="$PROJECT_DIR$/simple-weather/pom.xml" />
       </list>
     </option>
   </component>
@@ -150,6 +124,21 @@
               <item name="maven_ch4" type="462c0819:PsiDirectoryNode" />
               <item name="simple-weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven_ch4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven_ch4" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven_ch4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven_ch4" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544814169987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544816924870" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/simple-weather/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,7 +241,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544809611423</updated>
       <workItem from="1544809612860" duration="2193000" />
-      <workItem from="1544811852354" duration="2997000" />
+      <workItem from="1544811852354" duration="4653000" />
     </task>
     <servers />
   </component>
@@ -262,10 +251,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5190000" />
+    <option name="totallyTimeSpent" value="6846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -319,9 +309,6 @@
     <entry file="file://$PROJECT_DIR$/simple-weather/src/main/resources/output.vm">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-weather/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/custom/weather/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -348,13 +335,6 @@
     <entry file="file://$PROJECT_DIR$/simple-weather/target/surefire-reports/TEST-org.sonatype.mavenbook.custom.AppTest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-weather/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/custom/weather/yahoo/YahooParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -372,6 +352,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-weather/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-weather/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
         </state>
       </provider>
     </entry>
